@@ -6,5 +6,5 @@
 	smudge = &#34;f() { tmpfile=$(mktemp); sqlite3 $tmpfile; cat $tmpfile; rm $tmpfile; }; f&#34;
 	required = true
 </code></pre><ol start=2><li>In each git repositories where there is (are) db file(s), I add a file called .gitattribute at the root of the directory whith this content:</li></ol><pre tabindex=0><code>*.db filter=sqlite3
-</code></pre><p>Thanks to <a href=https://trenta3.gitlab.io/note:storing-sqlite-databases-under-git/>this blog</a>!</p></div></main><footer><p style=font-size:small;font-style:italic;text-align:right>&copy; Lydéric Landry, Luxembourg 2025
+</code></pre><p>Thanks to <a href=https://trenta3.gitlab.io/note:storing-sqlite-databases-under-git/>this blog</a>!</p></div></main><footer><p style=font-size:small;font-style:italic;text-align:right>&copy; Lydéric Landry, Luxembourg 2026
 <script src=/js/main.js></script></footer></body></html>

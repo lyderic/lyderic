@@ -4,5 +4,5 @@
 <a href=/livres/>Mes livres</a> |</div></nav><hr></header><main><h3>Find out compiler version of a go binary</h3><div style=text-align:right;font-style:italic><time datetime=2017-09-04T12:45:45+00:00>4 septembre 2017</time></div><hr><div style=text-align:justify;margin-top:2em><p>If you have a binary that was produced by a golang compiler, and you want to find out which version of the compiler was used, you can use use the C debugger <em>gdb</em> as follows:</p><pre><code>echo &quot;p 'runtime.buildVersion'&quot; \
   | gdb /path/to/binary 2&gt;/dev/null \
   | awk '/go[0-9]/ {print $NF}'
-</code></pre></div></main><footer><p style=font-size:small;font-style:italic;text-align:right>&copy; Lydéric Landry, Luxembourg 2025
+</code></pre></div></main><footer><p style=font-size:small;font-style:italic;text-align:right>&copy; Lydéric Landry, Luxembourg 2026
 <script src=/js/main.js></script></footer></body></html>
